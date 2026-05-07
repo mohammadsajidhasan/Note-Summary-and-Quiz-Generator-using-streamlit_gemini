@@ -15,7 +15,7 @@ client = genai.Client(api_key= my_api_key)
 
 # note generator
 def note_generator(images):
-    prompt = """Summarize the picture in note format at max 100 words
+    prompt = """Summarize the picture in note format at max 200 words
     make sure to add necessary markdown to differentiate different section"""
 
     response = client.models.generate_content(
@@ -36,7 +36,7 @@ def audio_transcription(text):
 
 # quiz generator
 def quiz_generator(images,difficulty):
-    prompt = f"""Generate 3 quizzes based on the {difficulty}.
+    prompt = f"""Generate 10 quizzes based on the {difficulty}.
     Make sure to add markdown to differentiate the options. Add correct answer too after the quiz"""
 
     response = client.models.generate_content(
