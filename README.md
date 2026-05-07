@@ -164,7 +164,7 @@ git push origin feature-name
 
 ## 👨‍💻 Author
 
-### Mohammad Sajid Hasan
+### Md. Sajid Hasan
 
 - GitHub: https://github.com/mohammadsajidhasan
 
