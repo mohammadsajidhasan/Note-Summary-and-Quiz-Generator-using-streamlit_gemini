@@ -4,6 +4,8 @@ An AI-powered educational web application that summarizes notes and automaticall
 
 This project helps students, teachers, and self-learners quickly understand large study materials and test their knowledge interactively.
 
+Link: https://note-summary-and-quiz-generator-using-appgemini.streamlit.app/
+
 ---
 
 ## 🚀 Features
